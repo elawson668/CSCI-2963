@@ -44,6 +44,13 @@ Solved Blockly maze puzzle:
 
 ![maze](Photos/maze.png)
 
+Project ideas:
+
+Ideally for my project I would like to contribute something meaningful. My father is a graphic designer, and has often told me that the software he uses is not intuitively 
+designed. It is designed only for functionality, and not usability. I think I am in a unique position to help to solve this issue. Hopefully I can find a project that interests
+me, as I would love to make an important contribution to a piece of software. I think doing so would give me a lot of experience, and it would definitely help to bolster my 
+resume. 
+
 
 
 
