@@ -19,4 +19,4 @@ other choice.
 Tree installed:
 
 
-![tree](tree.png)
+![tree](Photos/tree.png)

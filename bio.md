@@ -6,4 +6,4 @@ github account: elawson668
 
 slack handle: lawsoe
 
-![me](me.png)
+![me](Photos/me.png)
