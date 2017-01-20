@@ -36,7 +36,9 @@ Regex problems:
 ![p8](Photos/p8.png)
 ![p9](Photos/p9.png)
 ![b1](Photos/b1.png)
-
+![b2](Photos/b2.png)
+![b3](Photos/b3.png)
+![b4](Photos/b4.png)
 
 
 
