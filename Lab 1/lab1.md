@@ -19,4 +19,4 @@ other choice.
 Tree installed:
 
 
-![tree](Screen Shot 2017-01-20 at 12.46.44 PM.png)
+![tree](tree.png)
