@@ -40,5 +40,11 @@ Regex problems:
 ![b3](Photos/b3.png)
 ![b4](Photos/b4.png)
 
+Solved Blockly maze puzzle:
+
+![maze](Photos/maze.png)
+
+
+
 
 
