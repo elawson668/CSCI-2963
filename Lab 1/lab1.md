@@ -18,5 +18,10 @@ other choice.
 
 Tree installed:
 
-
 ![tree](Photos/tree.png)
+
+Regex, 7 lessons completed:
+
+![regex](Photos/regex.png)
+
+
