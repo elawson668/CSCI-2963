@@ -24,4 +24,17 @@ Regex, 7 lessons completed:
 
 ![regex](Photos/regex.png)
 
+Regex problems:
+
+![p1](Photos/p1.png)
+![p2](Photos/p2.png)
+![p3](Photos/p3.png)
+![p4](Photos/p4.png)
+![p5](Photos/p5.png)
+![p6](Photos/p6.png)
+![p7](Photos/p7.png)
+![p8](Photos/p8.png)
+![p9](Photos/p9.png)
+![b1](Photos/b1.png)
+
 
