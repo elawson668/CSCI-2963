@@ -24,7 +24,7 @@ Regex, 7 lessons completed:
 
 ![regex](Photos/regex.png)
 
-Regex problems:
+Regex problems: 
 
 ![p1](Photos/p1.png)
 ![p2](Photos/p2.png)
