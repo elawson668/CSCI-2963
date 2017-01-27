@@ -6,10 +6,10 @@
    would then technically be a violation of copyright law.
 
 4) I agree with the claim that Gopher failed due to no following an open source model. The early users at the time were all involved in the community, so
-   so obviously theyo would be turned off by Gopher's lack of openness, and would enjoy the WWW's open nature. As stated, CERN quickly lost control of the WWW
+   so obviously they would be turned off by Gopher's lack of openness, and would enjoy the WWW's open nature. As stated, CERN quickly lost control of the WWW
    to the development community, and I think this has created an overall better Internet today.
 
-5) I think Android uses the Apache 2.0 license because they value openness, and want their users to be free to use their sofware for whatever they like.
+5) I think Android uses the Apache 2.0 license because they value openness, and want their users to be free to use their software for whatever they like.
    Other licenses like GPL are more restrictive and would be harder to comply with for a piece of software that is distributed all over the world.
 
 7) I think the GPL license would be best for a company. It requires derivatives to be released under the same license, and requires the source code to also 
