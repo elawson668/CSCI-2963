@@ -1,4 +1,4 @@
-New repository - https://github.com/elawson668/lab3part1o
+New repository - https://github.com/elawson668/lab3part1
 
 Visualization of branches - 
 
