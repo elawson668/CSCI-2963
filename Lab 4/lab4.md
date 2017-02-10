@@ -12,3 +12,9 @@ Step 3:
 
 ![S3](Photos/Step3.png)
 
+Step 4:
+
+![S4](Photos/Step4.png)
+
+Step 5:
+![S4](Photos/Step5.png)

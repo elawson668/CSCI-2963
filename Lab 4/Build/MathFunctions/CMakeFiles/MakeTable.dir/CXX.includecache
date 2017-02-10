@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../MathFunctions/MathFunctions.h
-
-/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/MathFunctions/mysqrt.cxx
-math.h
+/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/MathFunctions/MakeTable.cxx
+stdio.h
 -
-MathFunctions.h
+stdlib.h
+-
+math.h
 -
 

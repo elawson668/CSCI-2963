@@ -522,3 +522,49 @@ Linking CXX executable cmTC_f2d66
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43cb0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_43cb0.dir/build.make CMakeFiles/cmTC_43cb0.dir/build
+Building C object CMakeFiles/cmTC_43cb0.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_43cb0.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.8/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+Linking C executable cmTC_43cb0
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43cb0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=log -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43cb0.dir/CheckFunctionExists.c.o  -o cmTC_43cb0 
+
+
+Determining if the function exp exists passed with the following output:
+Change Dir: /Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08160/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_08160.dir/build.make CMakeFiles/cmTC_08160.dir/build
+Building C object CMakeFiles/cmTC_08160.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp   -o CMakeFiles/cmTC_08160.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.8/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'exp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exp
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: 'exp' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exp
+                              ^
+1 warning generated.
+Linking C executable cmTC_08160
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08160.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=exp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_08160.dir/CheckFunctionExists.c.o  -o cmTC_08160 
+
+
