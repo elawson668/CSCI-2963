@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" 
+CXX_INCLUDES = -I"/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" -I"/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/MathFunctions" 
 
