@@ -29,8 +29,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.8.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.8.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.8.0-rc1/CMakeSystem.cmake"
-  "CMakeLists.txt"
-  "TutorialConfig.h.in"
+  "../CMakeLists.txt"
+  "../TutorialConfig.h.in"
   )
 
 # The corresponding makefile is:

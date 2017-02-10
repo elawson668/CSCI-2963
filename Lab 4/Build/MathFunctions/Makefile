@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4"
+CMAKE_BINARY_DIR = "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/CMakeFiles" "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/CMakeFiles/progress.marks"
-	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/CMakeFiles" 0
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build/CMakeFiles" "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build/MathFunctions/CMakeFiles/progress.marks"
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,58 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Tutorial
+# Convenience name for target.
+MathFunctions/CMakeFiles/MathFunctions.dir/rule:
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
+.PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
-# Build rule for target.
-Tutorial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Tutorial
-.PHONY : Tutorial
+# Convenience name for target.
+MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
+
+.PHONY : MathFunctions
 
 # fast build rule for target.
-Tutorial/fast:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-.PHONY : Tutorial/fast
+MathFunctions/fast:
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
+.PHONY : MathFunctions/fast
 
-tutorial.o: tutorial.cxx.o
+mysqrt.o: mysqrt.cxx.o
 
-.PHONY : tutorial.o
+.PHONY : mysqrt.o
 
 # target to build an object file
-tutorial.cxx.o:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.o
-.PHONY : tutorial.cxx.o
+mysqrt.cxx.o:
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+.PHONY : mysqrt.cxx.o
 
-tutorial.i: tutorial.cxx.i
+mysqrt.i: mysqrt.cxx.i
 
-.PHONY : tutorial.i
+.PHONY : mysqrt.i
 
 # target to preprocess a source file
-tutorial.cxx.i:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.i
-.PHONY : tutorial.cxx.i
+mysqrt.cxx.i:
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+.PHONY : mysqrt.cxx.i
 
-tutorial.s: tutorial.cxx.s
+mysqrt.s: mysqrt.cxx.s
 
-.PHONY : tutorial.s
+.PHONY : mysqrt.s
 
 # target to generate assembly for a file
-tutorial.cxx.s:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.s
-.PHONY : tutorial.cxx.s
+mysqrt.cxx.s:
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+.PHONY : mysqrt.cxx.s
 
 # Help Target
 help:
@@ -158,10 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Tutorial"
-	@echo "... tutorial.o"
-	@echo "... tutorial.i"
-	@echo "... tutorial.s"
+	@echo "... MathFunctions"
+	@echo "... mysqrt.o"
+	@echo "... mysqrt.i"
+	@echo "... mysqrt.s"
 .PHONY : help
 
 
@@ -173,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/Build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,3 +1,9 @@
 Step 1:
 
-![Step1](Photos/Step1.png)
+![S1](Photos/Step1.png)
+
+
+Step 2:
+
+![S2sqrt](Photos/Step2sqrt.png)
+![S2mysqrt](Photos/Step2mysqrt.png)

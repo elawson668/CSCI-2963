@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/TutorialConfig.h
-
 /Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/tutorial.cxx
 stdio.h
 -
@@ -17,4 +15,8 @@ math.h
 -
 TutorialConfig.h
 /Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/TutorialConfig.h
+MathFunctions.h
+/Users/elawson/Documents/Intro to Open Source/CSCI-2963/Lab 4/MathFunctions.h
+
+TutorialConfig.h
 
