@@ -37,7 +37,9 @@ def generate_graph(words):
             left, c, right = word[0:i], word[i], word[i+1:]
             j = lookup[c] # lowercase.index(c)
             for cc in lowercase[j+1:]:
-                yield left + cc + right
+                leftright = left + right
+                for i in range(len(word) + 1):
+                    yield leftright[:i] + cc + leftright[i:]
     candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)
     G.add_nodes_from(words)
@@ -79,3 +81,4 @@ if __name__ == '__main__':
         except nx.NetworkXNoPath:
             print("None")
 
+#[('cold','warm'),('love','hate')]:
