@@ -7,3 +7,7 @@ Lab 6 - Scientific Computation
 4 letter word ladders - 
 
 ![four](Photos/fourletterwords.png)
+
+Word ladder variation -
+
+![variation](Photos/wordvariation.png)
