@@ -1,0 +1,13 @@
+Index: chapter.xml
+===================================================================
+--- chapter.xml	(revision 50083)
++++ chapter.xml	(working copy)
+@@ -93,7 +93,7 @@
+ 	by the PC-BSD Project.  It can be used to install either a
+ 	graphical desktop (PC-BSD) or a command line version of &os;.
+ 	Refer to the PC-BSD Users Handbook for details (<link
+-	  xlink:href="http://wiki.pcbsd.org/index.php/Colophon">http://wiki.pcbsd.org/index.php/Colophon</link>).</para>
++	  xlink:href="http://download.pcbsd.org/iso/10.3-RELEASE/amd64/docs/html/pcbsd.html">http://download.pcbsd.org/iso/10.3-RELEASE/amd64/docs/html/pcbsd.html</link>).</para>
+     </note>
+ 
+     <para>After reading this chapter, you will know:</para>
