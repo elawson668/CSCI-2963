@@ -21,4 +21,4 @@ for word in defs.find():
         defs.update({"word":w}, {"$push": {"dates": t}})
         break
     i+=1
-print(defs.find_one({"word":w}))
+print defs.find_one({"word":w})
