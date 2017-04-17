@@ -79,3 +79,6 @@ if __name__ == '__main__':
         except nx.NetworkXNoPath:
             print("None")
 
+    for c in sorted(nx.connected_components(G)):
+        print c
+
